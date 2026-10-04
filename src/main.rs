@@ -47,14 +47,3 @@
 //         }
 //     }
 // }
-
-
-fn main() {
-    let mut s = String::from("hello");
-    add_exclamation(&mut s);
-    println!("{}", s);
-}
-
-fn add_exclamation(text: &mut String) {
-    text.push_str("!");
-}
