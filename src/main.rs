@@ -18,7 +18,7 @@ use std::cmp::Ordering;
 
 fn main() {
     println!("Guess the number");
-    let secret_number = rand::thread_rng().gen_range(1..=100);
+    let secret_number = rand::thread_rng().gen_range(1..=5);
 
     loop {
         println!("Please input your guess.");
